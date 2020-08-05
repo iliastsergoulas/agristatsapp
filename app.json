@@ -1,0 +1,46 @@
+{
+  "expo": {
+    "name": "AgriStats",
+    "slug": "agristats",
+    "privacy": "public",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "userInterfaceStyle": "automatic",
+    "version": "1.0.1.2",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "enabled": true,
+      "checkAutomatically": "ON_LOAD",
+      "fallbackToCacheTimeout": 60000
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "userInterfaceStyle": "light"
+    },
+    "notification": {
+      "icon": "./assets/images/icon.png"
+    },
+    "android": {
+      "package": "com.agristats.agriprices",
+      "playStoreUrl": "https://play.google.com/store/apps/details?id=com.agristats.agriprices",
+      "versionCode": 1012,
+      "icon": "./assets/images/icon.png",
+      "permissions": ["ACCESS_COARSE_LOCATION","ACCESS_FINE_LOCATION","VIBRATE"],
+      "userInterfaceStyle": "dark",
+      "enableDangerousExperimentalLeanBuilds":true
+    },
+    "scheme":"agristats"
+  }
+}
